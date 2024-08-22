@@ -17,11 +17,5 @@
 				>ehrencastillo@gmail.com</a
 			>.
 		</p>
-		<p class="text-xl">
-			You can find more about me by
-			<a class="text-sky-400 hover:text-sky-500 hover:underline transition-all" href="/"
-				>reading my resume</a
-			>.
-		</p>
 	</div>
 </section>
