@@ -6,7 +6,7 @@
 	import Contact from './Contact.svelte';
 </script>
 
-<div>
+<div class="flex flex-col gap-16">
 	<Hero />
 	<About />
 	<Skills />
