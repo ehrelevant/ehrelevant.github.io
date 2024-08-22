@@ -7,9 +7,11 @@
 	import Skills from './Skills.svelte';
 </script>
 
-<Header />
-<Description />
-<Skills />
-<Experiences />
-<Projects />
-<Footer />
+<div>
+	<Header />
+	<Description />
+	<Skills />
+	<Experiences />
+	<Projects />
+	<Footer />
+</div>

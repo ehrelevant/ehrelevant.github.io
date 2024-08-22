@@ -1,11 +1,15 @@
 <script lang="ts">
+	import { Icon } from '@steeze-ui/svelte-icon';
+	import { Github, Linkedin, X } from '@steeze-ui/simple-icons';
 	import { getRandomInt } from '$lib/helpers';
 	import { onMount } from 'svelte';
 
 	const subContentOptions = [
-		'Computer Science Student',
+		'Computer Scientist',
+		'Programmer',
 		'Web Developer',
-		'Tech Enthusiast',
+		'Innovator',
+		'Leader',
 		'Syn-tax Evader'
 	];
 
@@ -58,7 +62,18 @@
 	});
 </script>
 
-<section class="h-screen w-full flex flex-col gap-4 justify-center items-center font-light">
-	<h1 class="text-7xl">Ehren Castillo</h1>
-	<h2 class="text-2xl">{subContentInfo.text}|</h2>
-</section>
+<header class="h-screen w-full flex flex-col justify-center items-center font-light">
+	<div class="flex flex-col gap-4">
+		<h1 class="text-6xl font-semibold">Hello, I'm Ehren Castillo!</h1>
+		<div class="w-full flex flex-row gap-4">
+			<div class="flex flex-row gap-2">
+				<a href="https://github.com/ehrelevant"><Icon src={Github} class="size-8" /></a>
+				<a href="https://www.linkedin.com/in/ehren-castillo-a8045a269/"
+					><Icon src={Linkedin} class="size-8" /></a
+				>
+				<a href="https://x.com/ehrelevant"><Icon src={X} class="size-8" /></a>
+			</div>
+			<h2 class="text-2xl pl-4 border-l-4">{subContentInfo.text}|</h2>
+		</div>
+	</div>
+</header>
