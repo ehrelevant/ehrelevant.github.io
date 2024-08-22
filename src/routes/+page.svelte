@@ -4,7 +4,7 @@
 	import About from './About.svelte';
 </script>
 
-<div class="flex flex-col gap-16">
+<div class="flex flex-col gap-16 mb-32">
 	<Hero />
 	<About />
 	<Skills />
