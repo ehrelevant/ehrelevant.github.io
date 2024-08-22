@@ -23,7 +23,7 @@
 	import Rust from '$lib/icons/tools/Rust.svg';
 </script>
 
-<section class="mx-32 flex flex-col justify-center items-center gap-8">
+<section class="mx-4 sm:mx-32 flex flex-col justify-center items-center gap-8">
 	<h2 class="font-bold text-4xl">My Skills</h2>
 	<Skillset name="Programming Languages">
 		<ToolBadge name="C" src={C} />
