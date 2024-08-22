@@ -1,17 +1,15 @@
 <script>
-	import Description from './Description.svelte';
-	import Experiences from './Experiences.svelte';
-	import Footer from './Footer.svelte';
-	import Header from './Header.svelte';
-	import Projects from './Projects.svelte';
+	import Hero from './Hero.svelte';
 	import Skills from './Skills.svelte';
+	import About from './About.svelte';
+	import Projects from './Projects.svelte';
+	import Contact from './Contact.svelte';
 </script>
 
 <div>
-	<Header />
-	<Description />
+	<Hero />
+	<About />
 	<Skills />
-	<Experiences />
 	<Projects />
-	<Footer />
+	<Contact />
 </div>
