@@ -3,13 +3,14 @@
 	import NavBtn from './NavBtn.svelte';
 
 	let section = 0;
+	const topOffset = 50;
 
 	function changeSection() {
 		const aboutSectionTop = document.getElementById('about')?.getBoundingClientRect().top;
 		const skillsSectionTop = document.getElementById('skills')?.getBoundingClientRect().top;
 
-		if (skillsSectionTop !== undefined && skillsSectionTop <= 0) section = 2;
-		else if (aboutSectionTop !== undefined && aboutSectionTop <= 0) section = 1;
+		if (skillsSectionTop !== undefined && skillsSectionTop <= topOffset) section = 2;
+		else if (aboutSectionTop !== undefined && aboutSectionTop <= topOffset) section = 1;
 		else section = 0;
 	}
 
