@@ -17,7 +17,7 @@
 	import MongoDB from '$lib/icons/tools/MongoDB.svg';
 	import MySQL from '$lib/icons/tools/MySQL.svg';
 	import Nodejs from '$lib/icons/tools/Nodejs.svg';
-	import PostgresSQL from '$lib/icons/tools/PostgresSQL.svg';
+	import PostgreSQL from '$lib/icons/tools/PostgreSQL.svg';
 	import React from '$lib/icons/tools/React.svg';
 	import Svelte from '$lib/icons/tools/Svelte.svg';
 	import Rust from '$lib/icons/tools/Rust.svg';
@@ -47,7 +47,7 @@
 			<ToolBadge name="Flask" src={Flask} />
 			<ToolBadge name="FastAPI" src={FastAPI} />
 			<ToolBadge name="MySQL" src={MySQL} />
-			<ToolBadge name="PostgresSQL" src={PostgresSQL} />
+			<ToolBadge name="PostgreSQL" src={PostgreSQL} />
 			<ToolBadge name="MongoDB" src={MongoDB} />
 		</Skillset>
 		<Skillset name="Other Languages & Tools">
