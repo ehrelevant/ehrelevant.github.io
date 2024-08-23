@@ -64,7 +64,9 @@
 
 <section id="hero" class="h-screen w-full flex flex-col justify-center items-center font-light">
 	<div class="flex flex-col gap-4 m-8">
-		<h1 class="text-6xl font-semibold">Hello, I'm Ehren Castillo!</h1>
+		<h1 class="text-6xl font-semibold">
+			Hello, I'm <span class="text-pink-red">Ehren Castillo</span>!
+		</h1>
 		<div class="w-full flex flex-row gap-4">
 			<div class="flex flex-row gap-2">
 				<a href="https://github.com/ehrelevant"><Icon src={Github} class="size-8" /></a>
