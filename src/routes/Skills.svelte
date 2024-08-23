@@ -23,34 +23,36 @@
 	import Rust from '$lib/icons/tools/Rust.svg';
 </script>
 
-<section class="mx-4 sm:mx-32 flex flex-col justify-center items-center gap-6">
-	<h2 class="font-bold text-4xl">My Skills</h2>
-	<Skillset name="Programming Languages">
-		<ToolBadge name="C" src={C} />
-		<ToolBadge name="C++" src={CPP} />
-		<ToolBadge name="Java" src={Java} />
-		<ToolBadge name="Python" src={Python} />
-		<ToolBadge name="Rust" src={Rust} />
-		<ToolBadge name="Node.js" src={Nodejs} />
-	</Skillset>
-	<Skillset name="Frontend Languages & Tools">
-		<ToolBadge name="HTML5" src={HTML} />
-		<ToolBadge name="CSS3" src={CSS} />
-		<ToolBadge name="JavaScript" src={JavaScript} />
-		<ToolBadge name="TypeScript" src={TypeScript} />
-		<ToolBadge name="Tailwind" src={Tailwind} />
-		<ToolBadge name="React" src={React} />
-		<ToolBadge name="Svelte" src={Svelte} />
-	</Skillset>
-	<Skillset name="Backend Languages & Tools">
-		<ToolBadge name="Flask" src={Flask} />
-		<ToolBadge name="FastAPI" src={FastAPI} />
-		<ToolBadge name="MySQL" src={MySQL} />
-		<ToolBadge name="PostgresSQL" src={PostgresSQL} />
-		<ToolBadge name="MongoDB" src={MongoDB} />
-	</Skillset>
-	<Skillset name="Other Languages & Tools">
-		<ToolBadge name="Git" src={Git} />
-		<ToolBadge name="Linux" src={Linux} />
-	</Skillset>
+<section id="skills" class="p-4 sm:p-20">
+	<div class="flex flex-col justify-center items-center gap-6">
+		<h2 class="font-bold text-4xl">My Skills</h2>
+		<Skillset name="Programming Languages">
+			<ToolBadge name="C" src={C} />
+			<ToolBadge name="C++" src={CPP} />
+			<ToolBadge name="Java" src={Java} />
+			<ToolBadge name="Python" src={Python} />
+			<ToolBadge name="Rust" src={Rust} />
+			<ToolBadge name="Node.js" src={Nodejs} />
+		</Skillset>
+		<Skillset name="Frontend Languages & Tools">
+			<ToolBadge name="HTML5" src={HTML} />
+			<ToolBadge name="CSS3" src={CSS} />
+			<ToolBadge name="JavaScript" src={JavaScript} />
+			<ToolBadge name="TypeScript" src={TypeScript} />
+			<ToolBadge name="Tailwind" src={Tailwind} />
+			<ToolBadge name="React" src={React} />
+			<ToolBadge name="Svelte" src={Svelte} />
+		</Skillset>
+		<Skillset name="Backend Languages & Tools">
+			<ToolBadge name="Flask" src={Flask} />
+			<ToolBadge name="FastAPI" src={FastAPI} />
+			<ToolBadge name="MySQL" src={MySQL} />
+			<ToolBadge name="PostgresSQL" src={PostgresSQL} />
+			<ToolBadge name="MongoDB" src={MongoDB} />
+		</Skillset>
+		<Skillset name="Other Languages & Tools">
+			<ToolBadge name="Git" src={Git} />
+			<ToolBadge name="Linux" src={Linux} />
+		</Skillset>
+	</div>
 </section>
