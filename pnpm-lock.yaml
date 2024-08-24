@@ -7,17 +7,16 @@ settings:
 importers:
 
   .:
-    dependencies:
+    devDependencies:
       '@steeze-ui/heroicons':
         specifier: ^2.4.0
         version: 2.4.0
-      '@steeze-ui/svelte-icon':
-        specifier: ^1.5.0
-        version: 1.5.0(svelte@4.2.18)
-    devDependencies:
       '@steeze-ui/simple-icons':
         specifier: ^1.9.0
         version: 1.9.0
+      '@steeze-ui/svelte-icon':
+        specifier: ^1.5.0
+        version: 1.5.0(svelte@4.2.18)
       '@sveltejs/adapter-auto':
         specifier: ^3.2.4
         version: 3.2.4(@sveltejs/kit@2.5.22(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.4.0))(svelte@4.2.18)(vite@5.4.0))
