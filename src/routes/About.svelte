@@ -1,4 +1,4 @@
-<section id="about" class="p-4 sm:p-20">
+<section id="about" class="px-4 sm:px-20 lg:px-32 py-32">
 	<div
 		class="p-12 border shadow-lg rounded-xl flex flex-col xl:flex-row justify-center gap-4 xl:gap-8"
 	>
