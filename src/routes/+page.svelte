@@ -8,6 +8,6 @@
 <div class="flex flex-col">
 	<Hero />
 	<About />
-	<Skills />
 	<Projects />
+	<Skills />
 </div>
