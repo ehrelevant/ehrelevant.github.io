@@ -16,18 +16,22 @@
 		alt="sample"
 		class="w-full aspect-video shrink-0 object-cover border-b-2"
 	/>
-	<div class="m-6 h-full flex flex-col gap-2 overflow-hidden">
+	<div class="m-6 flex flex-col overflow-hidden gap-4">
 		<h3 class="text-2xl font-semibold">{name}</h3>
-		<p class="text-lg">
-			<slot name="description" />
-		</p>
-		<div class="flex flex-row gap-2">
-			{#if link}
-				<a href={link}><Icon src={Link} class="size-6" /></a>
-			{/if}
-			{#if github}
-				<a href={github}><Icon src={Github} class="size-6" /></a>
-			{/if}
-		</div>
+		{#if $$slots.description}
+			<p class="text-lg">
+				<slot name="description" />
+			</p>
+		{/if}
+		{#if link || github}
+			<div class="flex flex-row gap-2">
+				{#if link}
+					<a href={link}><Icon src={Link} class="size-8" /></a>
+				{/if}
+				{#if github}
+					<a href={github}><Icon src={Github} class="size-8" /></a>
+				{/if}
+			</div>
+		{/if}
 	</div>
 </div>
