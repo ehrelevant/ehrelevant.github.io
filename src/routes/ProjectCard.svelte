@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { Icon } from '@steeze-ui/svelte-icon';
 	import { Link } from '@steeze-ui/heroicons';
 	import { Github } from '@steeze-ui/simple-icons';
+	import IconLink from '$lib/components/IconLink.svelte';
 
 	export let name: string;
 	export let thumbnail: string;
@@ -28,10 +28,10 @@
 		{#if link || github}
 			<div class="flex flex-row gap-2">
 				{#if link}
-					<a href={link} target="_blank"><Icon src={Link} class="size-8" /></a>
+					<IconLink href={link} src={Link} />
 				{/if}
 				{#if github}
-					<a href={github} target="_blank"><Icon src={Github} class="size-8" /></a>
+					<IconLink href={github} src={Github} />
 				{/if}
 			</div>
 		{/if}

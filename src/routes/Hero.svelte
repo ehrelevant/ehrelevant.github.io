@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { Icon } from '@steeze-ui/svelte-icon';
 	import { Github, Linkedin, X } from '@steeze-ui/simple-icons';
 	import { getRandomInt } from '$lib/helpers';
 	import { onMount } from 'svelte';
+	import IconLink from '$lib/components/IconLink.svelte';
 
 	const subContentOptions = [
 		'Computer Scientist',
@@ -69,13 +69,9 @@
 		</h1>
 		<div class="w-full flex flex-row gap-4">
 			<div class="flex flex-row gap-2">
-				<a href="https://github.com/ehrelevant" target="_blank"
-					><Icon src={Github} class="size-8" /></a
-				>
-				<a href="https://www.linkedin.com/in/ehren-castillo-a8045a269/" target="_blank"
-					><Icon src={Linkedin} class="size-8" /></a
-				>
-				<a href="https://x.com/ehrelevant" target="_blank"><Icon src={X} class="size-8" /></a>
+				<IconLink href="https://github.com/ehrelevant" src={Github} />
+				<IconLink href="https://www.linkedin.com/in/ehren-castillo-a8045a269/" src={Linkedin} />
+				<IconLink href="https://x.com/ehrelevant" src={X} />
 			</div>
 			<h2 class="text-2xl pl-4 border-l-4">{subContentInfo.text}|</h2>
 		</div>
