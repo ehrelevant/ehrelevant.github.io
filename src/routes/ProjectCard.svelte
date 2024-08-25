@@ -19,7 +19,7 @@
 	<div class="m-6 flex flex-col overflow-hidden gap-4">
 		<h3 class="text-2xl font-semibold">{name}</h3>
 		{#if $$slots.description}
-			<p class="text-lg">
+			<p class="text-lg text-justify">
 				<slot name="description" />
 			</p>
 		{/if}

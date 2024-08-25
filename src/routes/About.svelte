@@ -4,13 +4,13 @@
 	>
 		<h2 class="font-bold text-4xl xl:w-32 text-center xl:text-end">ABOUT ME</h2>
 		<div class="flex flex-col gap-4">
-			<p class="text-xl">
+			<p class="text-xl text-justify">
 				I'm a Junior student currently pursuing a Bachelor's degree in Computer Science at the
 				University of the Philippines Diliman. Here, I have been honing my skills in programming,
 				problem solving, teamwork, and leadership to expand my capabilities as a web & software
 				developer.
 			</p>
-			<p class="text-xl">
+			<p class="text-xl text-justify">
 				If you are looking to recruit/hire somebody who is hard working, passionate, and willing to
 				learn, then feel free to contact me at
 				<a
