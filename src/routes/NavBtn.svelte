@@ -7,6 +7,6 @@
 
 <a
 	{href}
-	class="block px-8 py-2 rounded-xl text-lg font-semibold hover:scale-105 transition-all {colors}"
+	class="block w-28 py-2 text-center rounded-xl text-lg font-semibold hover:scale-105 transition-all {colors}"
 	><slot /></a
 >
