@@ -16,7 +16,7 @@
 		src={thumbnail}
 		loading="lazy"
 		alt="sample"
-		class="w-full aspect-video shrink-0 object-cover border-b-2"
+		class="w-full aspect-video shrink-0 object-cover border-b-2 rounded-xl"
 	/>
 	<div class="m-4 sm:m-6 flex flex-col overflow-hidden gap-4">
 		<h3 class="text-2xl font-semibold">{name}</h3>
