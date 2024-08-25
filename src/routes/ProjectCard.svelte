@@ -10,7 +10,7 @@
 </script>
 
 <div
-	class="w-full h-full border shadow-lg rounded-xl overflow-hidden hover:scale-105 transition-transform"
+	class="md:basis-5/12 xl:basis-1/4 md:max-w-[50%] xl:max-w-[33%] grow border shadow-lg rounded-xl overflow-hidden hover:scale-105 transition-transform"
 >
 	<img
 		src={splashSrc}
