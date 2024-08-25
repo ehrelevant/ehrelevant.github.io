@@ -9,7 +9,9 @@
 	export let github = '';
 </script>
 
-<div class="w-full h-full border shadow-lg rounded-xl overflow-hidden">
+<div
+	class="w-full h-full border shadow-lg rounded-xl overflow-hidden hover:scale-105 transition-transform"
+>
 	<img
 		src={splashSrc}
 		loading="lazy"

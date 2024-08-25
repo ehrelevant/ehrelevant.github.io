@@ -22,7 +22,7 @@
 	});
 </script>
 
-<nav class="fixed top-0 w-full bg-white shadow-lg shadow-white">
+<nav class="fixed top-0 z-50 w-full bg-white shadow-lg shadow-white">
 	<ul class="flex justify-center gap-2 m-2">
 		<li>
 			<NavBtn href="#hero" isCurrent={section === 0}>Intro</NavBtn>
