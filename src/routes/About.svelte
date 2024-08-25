@@ -1,3 +1,7 @@
+<script>
+	import Link from '$lib/components/Link.svelte';
+</script>
+
 <section id="about" class="px-4 sm:px-20 lg:px-32 py-20">
 	<div
 		class="p-4 sm:p-12 border shadow-lg rounded-xl flex flex-col xl:flex-row justify-center gap-4 xl:gap-8"
@@ -13,11 +17,7 @@
 			<p class="text-lg sm:text-xl text-justify">
 				If you are looking to recruit/hire somebody who is hard working, passionate, and willing to
 				learn, then feel free to contact me at
-				<a
-					href="mailto:ehrencastillo@gmail.com"
-					class="text-sky-400 hover:text-sky-500 hover:underline transition-all"
-					>ehrencastillo@gmail.com</a
-				>.
+				<Link href="mailto:ehrencastillo@gmail.com">ehrencastillo@gmail.com</Link>.
 			</p>
 		</div>
 	</div>
