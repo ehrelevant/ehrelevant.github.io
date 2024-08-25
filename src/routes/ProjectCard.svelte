@@ -16,10 +16,10 @@
 		alt="sample"
 		class="w-full aspect-video shrink-0 object-cover border-b-2"
 	/>
-	<div class="m-6 flex flex-col overflow-hidden gap-4">
+	<div class="m-4 sm:m-6 flex flex-col overflow-hidden gap-4">
 		<h3 class="text-2xl font-semibold">{name}</h3>
 		{#if $$slots.description}
-			<p class="text-lg text-justify">
+			<p class="text-base sm:text-lg text-justify">
 				<slot name="description" />
 			</p>
 		{/if}
