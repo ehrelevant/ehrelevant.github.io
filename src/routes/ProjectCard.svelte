@@ -28,10 +28,10 @@
 		{#if link || github}
 			<div class="flex flex-row gap-2">
 				{#if link}
-					<a href={link}><Icon src={Link} class="size-8" /></a>
+					<a href={link} target="_blank"><Icon src={Link} class="size-8" /></a>
 				{/if}
 				{#if github}
-					<a href={github}><Icon src={Github} class="size-8" /></a>
+					<a href={github} target="_blank"><Icon src={Github} class="size-8" /></a>
 				{/if}
 			</div>
 		{/if}

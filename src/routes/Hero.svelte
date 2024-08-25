@@ -69,11 +69,13 @@
 		</h1>
 		<div class="w-full flex flex-row gap-4">
 			<div class="flex flex-row gap-2">
-				<a href="https://github.com/ehrelevant"><Icon src={Github} class="size-8" /></a>
-				<a href="https://www.linkedin.com/in/ehren-castillo-a8045a269/"
+				<a href="https://github.com/ehrelevant" target="_blank"
+					><Icon src={Github} class="size-8" /></a
+				>
+				<a href="https://www.linkedin.com/in/ehren-castillo-a8045a269/" target="_blank"
 					><Icon src={Linkedin} class="size-8" /></a
 				>
-				<a href="https://x.com/ehrelevant"><Icon src={X} class="size-8" /></a>
+				<a href="https://x.com/ehrelevant" target="_blank"><Icon src={X} class="size-8" /></a>
 			</div>
 			<h2 class="text-2xl pl-4 border-l-4">{subContentInfo.text}|</h2>
 		</div>

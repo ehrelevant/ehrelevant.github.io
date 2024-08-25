@@ -17,10 +17,10 @@
 			>
 				<svelte:fragment slot="description">
 					This portfolio website is one of my most recent projects. This was made using
-					<Link href="https://kit.svelte.dev/">SvelteKit</Link> and
-					<Link href="https://tailwindcss.com/">Tailwind CSS</Link>. This website serves as a way
-					for me to give an overview of my skills and descriptions on my past projects as a student
-					and developer.
+					<Link href="https://kit.svelte.dev/" toBlank={true}>SvelteKit</Link> and
+					<Link href="https://tailwindcss.com/" toBlank={true}>Tailwind CSS</Link>. This website
+					serves as a way for me to give an overview of my skills and descriptions on my past
+					projects as a student and developer.
 				</svelte:fragment></ProjectCard
 			>
 		</div>
