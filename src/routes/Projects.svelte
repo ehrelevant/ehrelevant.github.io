@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Link from '$lib/components/Link.svelte';
-	import sample from '$lib/images/portfolio/sample.jpg';
+	import portfolioThumb from '$lib/images/portfolio/thumb.png';
 
 	import ProjectCard from './ProjectCard.svelte';
 </script>
@@ -11,7 +11,7 @@
 		<div class="flex flex-row flex-wrap justify-center items-center gap-6">
 			<ProjectCard
 				name="Portfolio Website"
-				splashSrc={sample}
+				thumbnail={portfolioThumb}
 				link="https://ehrelevant.github.io"
 				github="https://github.com/ehrelevant/ehrelevant.github.io"
 			>
