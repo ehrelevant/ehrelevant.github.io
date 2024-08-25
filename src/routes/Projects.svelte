@@ -4,7 +4,7 @@
 	import ProjectCard from './ProjectCard.svelte';
 </script>
 
-<section id="projects" class="px-4 sm:px-20 lg:px-32 py-32">
+<section id="projects" class="px-4 sm:px-20 lg:px-32 py-20">
 	<div class="flex flex-col justify-center items-center gap-6">
 		<h2 class="font-bold text-4xl">My Projects</h2>
 		<div class="grid grid-cols-1 items-center gap-6 md:grid-cols-2 xl:grid-cols-3 w-full">

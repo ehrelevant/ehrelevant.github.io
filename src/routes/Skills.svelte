@@ -23,7 +23,7 @@
 	import Rust from '$lib/icons/tools/Rust.svg';
 </script>
 
-<section id="skills" class="px-4 sm:px-20 lg:px-32 py-32">
+<section id="skills" class="px-4 sm:px-20 lg:px-32 py-20">
 	<div class="flex flex-col justify-center items-center gap-6">
 		<h2 class="font-bold text-4xl">My Skills</h2>
 		<Skillset name="Programming Languages">
