@@ -25,7 +25,7 @@
 <nav class="fixed top-0 z-50 w-full bg-white shadow-lg shadow-white">
 	<ul class="flex justify-center gap-2 m-2">
 		<li>
-			<NavBtn href="#hero" isCurrent={section === 0}>Intro</NavBtn>
+			<NavBtn href="#intro" isCurrent={section === 0}>Intro</NavBtn>
 		</li>
 		<li>
 			<NavBtn href="#about" isCurrent={section === 1}>About</NavBtn>

@@ -62,7 +62,7 @@
 	});
 </script>
 
-<section id="hero" class="h-screen w-full flex flex-col justify-center items-center font-light">
+<section id="intro" class="h-screen w-full flex flex-col justify-center items-center font-light">
 	<div class="flex flex-col gap-4 m-8">
 		<h1 class="text-6xl font-semibold">
 			Hello, I'm <span class="text-pink-red">Ehren Castillo</span>!
