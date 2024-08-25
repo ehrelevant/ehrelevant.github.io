@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import NavBtn from './NavBtn.svelte';
 
-	let section = 0;
+	let section = -1;
 	const topOffset = 50;
 
 	function changeSection() {
