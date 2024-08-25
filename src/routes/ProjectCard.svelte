@@ -4,7 +4,7 @@
 	import { Github } from '@steeze-ui/simple-icons';
 
 	export let name: string;
-	export let splashSrc: string;
+	export let thumbnail: string;
 	export let link = '';
 	export let github = '';
 </script>
@@ -13,7 +13,7 @@
 	class="md:basis-5/12 xl:basis-1/4 md:max-w-[50%] xl:max-w-[33%] grow border shadow-lg rounded-xl overflow-hidden hover:scale-105 transition-transform"
 >
 	<img
-		src={splashSrc}
+		src={thumbnail}
 		loading="lazy"
 		alt="sample"
 		class="w-full aspect-video shrink-0 object-cover border-b-2"
