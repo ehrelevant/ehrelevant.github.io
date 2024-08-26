@@ -20,8 +20,8 @@
 					<Link href="https://kit.svelte.dev/" toBlank={true}>SvelteKit</Link> and
 					<Link href="https://tailwindcss.com/" toBlank={true}>Tailwind CSS</Link>. I made this
 					website to provide a quick overview of me, my skills, and my past projects.
-				</svelte:fragment></ProjectCard
-			>
+				</svelte:fragment>
+			</ProjectCard>
 		</div>
 	</div>
 </section>

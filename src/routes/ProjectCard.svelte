@@ -1,16 +1,49 @@
 <script lang="ts">
-	import { Link } from '@steeze-ui/heroicons';
+	import { Icon } from '@steeze-ui/svelte-icon';
+	import { Link, XMark } from '@steeze-ui/heroicons';
 	import { Github } from '@steeze-ui/simple-icons';
+	import { fade } from 'svelte/transition';
 	import IconLink from '$lib/components/IconLink.svelte';
 
 	export let name: string;
 	export let thumbnail: string;
 	export let link = '';
 	export let github = '';
+
+	let isActive = false;
+
+	function handleClick() {
+		isActive = true;
+	}
+
+	function handleClose() {
+		isActive = false;
+	}
 </script>
 
+{#if isActive && $$slots.default}
+	<!-- svelte-ignore a11y-click-events-have-key-events -->
+	<!-- svelte-ignore a11y-no-static-element-interactions -->
+	<div
+		class="bg-black/30 z-50 w-full h-full fixed top-0 left-0 flex justify-center items-center"
+		transition:fade={{ duration: 100 }}
+		on:click={handleClose}
+	>
+		<div class="relative w-5/6 h-5/6 bg-white rounded-xl p-10" on:click|stopPropagation>
+			<button class="absolute top-3 right-3" on:click={handleClose}
+				><Icon src={XMark} class="size-6" /></button
+			>
+			<div class="w-full h-full overflow-hidden"><slot /></div>
+		</div>
+	</div>
+{/if}
+
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<!-- svelte-ignore a11y-no-static-element-interactions -->
 <div
-	class="md:basis-5/12 xl:basis-1/4 md:max-w-[50%] xl:max-w-[33%] grow border shadow-lg rounded-xl overflow-hidden hover:scale-105 transition-transform"
+	class="md:basis-5/12 xl:basis-1/4 md:max-w-[50%] xl:max-w-[33%] grow border shadow-lg rounded-xl overflow-hidden hover:scale-105 transition-transform
+	{$$slots.default ? 'cursor-pointer' : ''}"
+	on:click={handleClick}
 >
 	<img
 		src={thumbnail}
