@@ -3,6 +3,7 @@
 	import Skills from './Skills.svelte';
 	import About from './About.svelte';
 	import Projects from './Projects.svelte';
+	import Footer from './Footer.svelte';
 </script>
 
 <div class="flex flex-col">
@@ -10,4 +11,5 @@
 	<About />
 	<Projects />
 	<Skills />
+	<Footer />
 </div>
