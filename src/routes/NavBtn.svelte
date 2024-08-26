@@ -2,7 +2,7 @@
 	export let href: string;
 	export let isCurrent = false;
 
-	$: colors = isCurrent ? 'bg-slate-800 text-white' : 'hover:bg-slate-100';
+	$: colors = isCurrent ? 'bg-dark-gray text-white' : 'hover:bg-slate-100';
 </script>
 
 <a
