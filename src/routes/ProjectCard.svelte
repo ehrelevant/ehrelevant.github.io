@@ -13,15 +13,22 @@
 	let isActive = false;
 
 	function handleClick() {
-		isActive = true;
+		if ($$slots.default) {
+			isActive = true;
+			document.documentElement.classList.add('overflow-hidden');
+		}
 	}
 
 	function handleClose() {
-		isActive = false;
+		if ($$slots.default) {
+			isActive = false;
+			if (document.documentElement.classList.contains('overflow-hidden'))
+				document.documentElement.classList.remove('overflow-hidden');
+		}
 	}
 </script>
 
-{#if isActive && $$slots.default}
+{#if isActive}
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div
@@ -29,7 +36,10 @@
 		transition:fade={{ duration: 100 }}
 		on:click={handleClose}
 	>
-		<div class="relative w-5/6 h-5/6 bg-white rounded-xl p-10" on:click|stopPropagation>
+		<div
+			class="relative w-full lg:w-11/12 h-full lg:h-5/6 bg-white lg:rounded-xl p-10"
+			on:click|stopPropagation
+		>
 			<button class="absolute top-3 right-3" on:click={handleClose}
 				><Icon src={XMark} class="size-6" /></button
 			>
