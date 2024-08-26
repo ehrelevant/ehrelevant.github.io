@@ -4,19 +4,19 @@
 
 /* Works on Firefox */
 * {
-  scrollbar-width: auto;
-  scrollbar-color: theme("colors.dark-gray");
+	scrollbar-width: auto;
+	scrollbar-color: theme('colors.dark-gray');
 }
 
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 8px;
+	width: 8px;
 }
 
 *::-webkit-scrollbar-track {
-  background: theme("colors.gray.200");
+	background: theme('colors.gray.200');
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: theme("colors.dark-gray");
+	background-color: theme('colors.dark-gray');
 }
