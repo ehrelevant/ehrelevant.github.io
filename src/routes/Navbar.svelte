@@ -54,10 +54,10 @@
 	</ul>
 </nav>
 
-<nav class="block sm:hidden fixed w-full h-screen z-50">
+<nav class="block sm:hidden">
 	{#if isMenuOpen}
 		<div
-			class="w-full h-full bg-white flex justify-center items-start"
+			class="z-50 fixed w-full h-screen bg-white flex justify-center items-start"
 			transition:fly={{ duration: 100, x: 500, easing: quadInOut }}
 		>
 			<button class="absolute top-3 right-3" on:click={closeMenu}
@@ -80,7 +80,7 @@
 		</div>
 	{:else}
 		<button
-			class="bg-dark-gray rounded-full p-4 absolute top-2 right-2 hover:scale-105 hover:bg-gray-700 transition-all"
+			class="z-50 fixed bg-dark-gray rounded-full p-4 top-2 right-2 hover:scale-105 hover:bg-gray-700 transition-all"
 			transition:fly={{ duration: 100, x: 500, easing: quadInOut }}
 			on:click={openMenu}><Icon src={Bars3} class="size-6 text-white" /></button
 		>
