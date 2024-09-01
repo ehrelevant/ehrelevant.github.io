@@ -21,6 +21,8 @@
 	import React from '$lib/icons/tools/React.svg';
 	import Svelte from '$lib/icons/tools/Svelte.svg';
 	import Rust from '$lib/icons/tools/Rust.svg';
+	import Go from '$lib/icons/tools/Go.svg';
+	import Nextjs from '$lib/icons/tools/Nextjs.svg';
 </script>
 
 <section id="skills" class="px-4 sm:px-20 lg:px-32 py-20">
@@ -33,6 +35,7 @@
 			<ToolBadge name="Python" src={Python} />
 			<ToolBadge name="Rust" src={Rust} />
 			<ToolBadge name="Node.js" src={Nodejs} />
+			<ToolBadge name="Go" src={Go} />
 		</Skillset>
 		<Skillset name="Frontend Languages & Tools">
 			<ToolBadge name="HTML5" src={HTML} />
@@ -41,6 +44,7 @@
 			<ToolBadge name="TypeScript" src={TypeScript} />
 			<ToolBadge name="Tailwind" src={Tailwind} />
 			<ToolBadge name="React" src={React} />
+			<ToolBadge name="Next.js" src={Nextjs} />
 			<ToolBadge name="Svelte" src={Svelte} />
 		</Skillset>
 		<Skillset name="Backend Languages & Tools">
