@@ -67,7 +67,7 @@
 		<h1 class="text-6xl font-semibold">
 			Hello, I'm <span class="text-pink-red">Ehren Castillo</span>!
 		</h1>
-		<div class="w-full flex flex-row gap-4">
+		<div class="w-full flex flex-col sm:flex-row gap-4">
 			<div class="flex flex-row gap-2">
 				<IconLink href="https://github.com/ehrelevant" src={Github} />
 				<IconLink href="https://www.linkedin.com/in/ehren-castillo-a8045a269/" src={Linkedin} />
