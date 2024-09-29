@@ -10,7 +10,6 @@
 	import TypeScript from '$lib/icons/tools/TypeScript.svg';
 	import Tailwind from '$lib/icons/tools/Tailwind.svg';
 	import Python from '$lib/icons/tools/Python.svg';
-	import FastAPI from '$lib/icons/tools/FastAPI.svg';
 	import Flask from '$lib/icons/tools/Flask.svg';
 	import Git from '$lib/icons/tools/Git.svg';
 	import Linux from '$lib/icons/tools/Linux.svg';
@@ -20,7 +19,6 @@
 	import PostgreSQL from '$lib/icons/tools/PostgreSQL.svg';
 	import React from '$lib/icons/tools/React.svg';
 	import Svelte from '$lib/icons/tools/Svelte.svg';
-	import Rust from '$lib/icons/tools/Rust.svg';
 	import Go from '$lib/icons/tools/Go.svg';
 	import Nextjs from '$lib/icons/tools/Nextjs.svg';
 </script>
