@@ -30,33 +30,31 @@
 		<h2 class="font-bold text-4xl">My Skills</h2>
 		<Skillset name="Programming Languages">
 			<ToolBadge name="C" src={C} />
-			<ToolBadge name="C++" src={CPP} />
-			<ToolBadge name="Java" src={Java} />
-			<ToolBadge name="Python" src={Python} />
-			<ToolBadge name="Rust" src={Rust} />
-			<ToolBadge name="Node.js" src={Nodejs} />
-			<ToolBadge name="Go" src={Go} />
+			<ToolBadge name="C++" src={CPP} href="https://isocpp.org/" />
+			<ToolBadge name="Java" src={Java} href="https://www.oracle.com/java/" />
+			<ToolBadge name="Python" src={Python} href="https://www.python.org/" />
+			<ToolBadge name="Node.js" src={Nodejs} href="https://nodejs.org/" />
+			<ToolBadge name="Go" src={Go} href="https://go.dev/" />
 		</Skillset>
 		<Skillset name="Frontend Languages & Tools">
-			<ToolBadge name="HTML5" src={HTML} />
+			<ToolBadge name="HTML5" src={HTML} href="https://www.w3.org/" />
 			<ToolBadge name="CSS3" src={CSS} />
 			<ToolBadge name="JavaScript" src={JavaScript} />
-			<ToolBadge name="TypeScript" src={TypeScript} />
-			<ToolBadge name="Tailwind" src={Tailwind} />
-			<ToolBadge name="React" src={React} />
-			<ToolBadge name="Next.js" src={Nextjs} />
-			<ToolBadge name="Svelte" src={Svelte} />
+			<ToolBadge name="TypeScript" src={TypeScript} href="https://www.typescriptlang.org/" />
+			<ToolBadge name="Tailwind" src={Tailwind} href="https://tailwindcss.com/" />
+			<ToolBadge name="React" src={React} href="https://react.dev/" />
+			<ToolBadge name="Next.js" src={Nextjs} href="https://nextjs.org/" />
+			<ToolBadge name="Svelte" src={Svelte} href="https://svelte.dev/" />
 		</Skillset>
 		<Skillset name="Backend Languages & Tools">
-			<ToolBadge name="Flask" src={Flask} />
-			<ToolBadge name="FastAPI" src={FastAPI} />
-			<ToolBadge name="MySQL" src={MySQL} />
-			<ToolBadge name="PostgreSQL" src={PostgreSQL} />
-			<ToolBadge name="MongoDB" src={MongoDB} />
+			<ToolBadge name="Flask" src={Flask} href="https://palletsprojects.com/projects/flask/" />
+			<ToolBadge name="MySQL" src={MySQL} href="https://www.mysql.com/" />
+			<ToolBadge name="PostgreSQL" src={PostgreSQL} href="https://www.postgresql.org/" />
+			<ToolBadge name="MongoDB" src={MongoDB} href="https://www.mongodb.com/" />
 		</Skillset>
 		<Skillset name="Other Languages & Tools">
-			<ToolBadge name="Git" src={Git} />
-			<ToolBadge name="Linux" src={Linux} />
+			<ToolBadge name="Git" src={Git} href="https://git-scm.com/" />
+			<ToolBadge name="Linux" src={Linux} href="https://kernel.org/" />
 		</Skillset>
 	</div>
 </section>
