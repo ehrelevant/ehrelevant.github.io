@@ -1,38 +1,7 @@
-# create-svelte
+# Personal Website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Welcome to my the repository for my personal website! It contains information on me, my skill set and some of my past projects which I am very proud of. You can access it by clicking [here](https://ehrelevant.github.io/)!
 
-## Creating a project
+## Assets
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This website uses several assets from external sources, notably including the logos of various companies and products. Some logos were retreived from [Simple Icons](https://simpleicons.org/), including all logos related to social media websites (Github, X, LinkedIn, etc.). Most logos were retrieved from [TechIcons](https://techicons.dev/), and they themselves sourced their icons from [devicon](https://devicon.dev/) by [Konpa](https://github.com/konpa) and the many other contributors of [devicon](https://github.com/konpa). I'm planning on adding a list of attributions for certain logos in the future but, for now, just be aware that links attached to logos will lead to the website (if any) of the appropriate creators of said logo.
