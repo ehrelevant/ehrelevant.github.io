@@ -7,7 +7,7 @@
 	import MobileNavBtn from './MobileNavBtn.svelte';
 	import { quadInOut } from 'svelte/easing';
 
-	let section = -1;
+	let section = $state(-1);
 	const topOffset = 50;
 
 	function changeSection() {
@@ -26,7 +26,7 @@
 		changeSection();
 	});
 
-	let isMenuOpen = false;
+	let isMenuOpen = $state(false);
 
 	function openMenu() {
 		isMenuOpen = true;
@@ -60,7 +60,7 @@
 			class="z-50 fixed w-full h-screen bg-white flex justify-center items-start"
 			transition:fly={{ duration: 100, x: 500, easing: quadInOut }}
 		>
-			<button class="absolute top-3 right-3" on:click={closeMenu}
+			<button class="absolute top-3 right-3" onclick={closeMenu}
 				><Icon src={XMark} class="size-8" /></button
 			>
 			<ul class="flex flex-col w-full justify-center gap-2 m-4 mt-16">
@@ -82,7 +82,7 @@
 		<button
 			class="z-50 fixed bg-dark-gray rounded-full p-4 top-2 right-2 hover:scale-105 hover:bg-gray-700 transition-all"
 			transition:fly={{ duration: 100, x: 500, easing: quadInOut }}
-			on:click={openMenu}><Icon src={Bars3} class="size-6 text-white" /></button
+			onclick={openMenu}><Icon src={Bars3} class="size-6 text-white" /></button
 		>
 	{/if}
 </nav>

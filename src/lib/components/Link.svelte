@@ -1,10 +1,15 @@
 <script lang="ts">
-	export let href: string;
-	export let toBlank = false;
+	interface Props {
+		href: string;
+		toBlank?: boolean;
+		children?: import('svelte').Snippet;
+	}
+
+	let { href, toBlank = false, children }: Props = $props();
 
 	const target = toBlank ? '_blank' : '_self';
 </script>
 
 <a {href} class="text-sky-400 hover:text-sky-500 hover:underline transition-all" {target}
-	><slot /></a
+	>{@render children?.()}</a
 >

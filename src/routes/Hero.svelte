@@ -13,12 +13,12 @@
 		'Syn-tax Evader'
 	];
 
-	let subContentInfo = {
+	let subContentInfo = $state({
 		text: '',
 		optionIndex: 0,
 		isPaused: false,
 		isDeleting: false
-	};
+	});
 
 	onMount(() => {
 		setInterval(() => {
