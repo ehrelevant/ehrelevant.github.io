@@ -16,13 +16,11 @@
 				github="https://github.com/ehrelevant/ehrelevant.github.io"
 			>
 				{#snippet description()}
-							
-						This portfolio website is one of my most recent projects. It was made using
-						<Link href="https://kit.svelte.dev/" toBlank={true}>SvelteKit</Link> and
-						<Link href="https://tailwindcss.com/" toBlank={true}>Tailwind CSS</Link>. I made this
-						website to provide a quick overview of me, my skills, and my past projects.
-					
-							{/snippet}
+					This portfolio website is one of my most recent projects. It was made using
+					<Link href="https://kit.svelte.dev/" toBlank={true}>SvelteKit</Link> and
+					<Link href="https://tailwindcss.com/" toBlank={true}>Tailwind CSS</Link>. I made this
+					website to provide a quick overview of me, my skills, and my past projects.
+				{/snippet}
 			</ProjectCard>
 		</div>
 	</div>
