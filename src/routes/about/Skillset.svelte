@@ -7,9 +7,9 @@
 	let { name, children }: Props = $props();
 </script>
 
-<div class="flex flex-col justify-center items-center gap-4">
-	<h3 class="text-xl font-semibold text-center">{name}</h3>
-	<div class="flex flex-row justify-center flex-wrap gap-2">
+<div class="flex flex-col justify-center items-center gap-2">
+	<h3 class="text-xl font-semibold text-center italic">{name}</h3>
+	<div class="flex flex-row justify-center flex-wrap gap-3">
 		{@render children?.()}
 	</div>
 </div>

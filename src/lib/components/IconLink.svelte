@@ -10,4 +10,6 @@
 	let { href, src }: Props = $props();
 </script>
 
-<a {href} target="_blank"><Icon {src} class="size-8 hover:text-pink-red transition-colors" /></a>
+<a {href} target="_blank"
+	><Icon {src} class="size-8 hover:text-primary hover:scale-105 transition-all" /></a
+>

@@ -23,9 +23,13 @@
 	import Nextjs from '$lib/icons/tools/Nextjs.svg';
 </script>
 
-<section id="skills" class="px-4 sm:px-20 lg:px-32 py-20">
-	<div class="flex flex-col justify-center items-center gap-6">
-		<h2 class="font-bold text-4xl">My Skills</h2>
+<section id="skills" class="px-4 sm:px-20 lg:px-32">
+	<div class="flex flex-col justify-center items-center gap-8">
+		<h2
+			class="font-bold text-4xl bg-black px-8 py-2 hover:shadow-solid hover:shadow-primary group hover:scale-105 transition-all"
+		>
+			MY <span class="group-hover:text-primary transition-colors">SKILLS</span>
+		</h2>
 		<Skillset name="Programming Languages">
 			<ToolBadge name="C" src={C} />
 			<ToolBadge name="C++" src={CPP} href="https://isocpp.org/" />

@@ -10,6 +10,6 @@
 	const target = toBlank ? '_blank' : '_self';
 </script>
 
-<a {href} class="text-sky-400 hover:text-sky-500 hover:underline transition-all" {target}
+<a {href} class="text-primary hover:text-primary-hover hover:underline transition-all" {target}
 	>{@render children?.()}</a
 >

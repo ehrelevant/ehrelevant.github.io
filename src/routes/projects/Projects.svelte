@@ -7,7 +7,11 @@
 
 <section id="projects" class="px-4 sm:px-20 lg:px-32 py-20">
 	<div class="flex flex-col justify-center items-center gap-6">
-		<h2 class="font-bold text-4xl">My Projects</h2>
+		<h2
+			class="font-bold text-4xl bg-black px-8 py-2 hover:shadow-solid hover:shadow-primary group hover:scale-105 transition-all"
+		>
+			MY <span class="group-hover:text-primary transition-colors">PROJECTS</span>
+		</h2>
 		<div class="flex flex-row flex-wrap justify-center items-center gap-6">
 			<ProjectCard
 				name="Portfolio Website"
