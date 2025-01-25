@@ -1,7 +1,4 @@
 <script lang="ts">
-	import { createBubbler, stopPropagation } from 'svelte/legacy';
-
-	const bubble = createBubbler();
 	import { Icon } from '@steeze-ui/svelte-icon';
 	import { Link, XMark } from '@steeze-ui/heroicons';
 	import { Github } from '@steeze-ui/simple-icons';
@@ -17,14 +14,7 @@
 		description?: import('svelte').Snippet;
 	}
 
-	let {
-		name,
-		thumbnail,
-		link = '',
-		github = '',
-		children,
-		description
-	}: Props = $props();
+	let { name, thumbnail, link = '', github = '', children, description }: Props = $props();
 
 	let isActive = $state(false);
 
@@ -54,7 +44,7 @@
 	>
 		<div
 			class="relative w-full lg:w-11/12 h-full lg:h-5/6 bg-white lg:rounded-xl p-10"
-			onclick={stopPropagation(bubble('click'))}
+			onclick={handleClick}
 		>
 			<button class="absolute top-3 right-3" onclick={handleClose}
 				><Icon src={XMark} class="size-6" /></button
