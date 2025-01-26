@@ -21,6 +21,13 @@
 	import Svelte from '$lib/icons/tools/Svelte.svg';
 	import Go from '$lib/icons/tools/Go.svg';
 	import Nextjs from '$lib/icons/tools/Nextjs.svg';
+	import PHP from '$lib/icons/tools/PHP.svg';
+	import Laravel from '$lib/icons/tools/Laravel.svg';
+	import PureScript from '$lib/icons/tools/PureScript.svg';
+	import Rust from '$lib/icons/tools/Rust.svg';
+	import Julia from '$lib/icons/tools/Julia.svg';
+	import Jupyter from '$lib/icons/tools/Jupyter.svg';
+	import Vim from '$lib/icons/tools/Vim.svg';
 </script>
 
 <section id="skills" class="px-4 sm:px-20 lg:px-32">
@@ -37,6 +44,8 @@
 			<ToolBadge name="Python" src={Python} href="https://www.python.org/" />
 			<ToolBadge name="Node.js" src={Nodejs} href="https://nodejs.org/" />
 			<ToolBadge name="Go" src={Go} href="https://go.dev/" />
+			<ToolBadge name="Rust" src={Rust} href="https://www.rust-lang.org/" />
+			<ToolBadge name="Julia" src={Julia} href="https://julialang.org/" />
 		</Skillset>
 		<Skillset name="Frontend Languages & Tools">
 			<ToolBadge name="HTML5" src={HTML} href="https://www.w3.org/" />
@@ -47,8 +56,11 @@
 			<ToolBadge name="React" src={React} href="https://react.dev/" />
 			<ToolBadge name="Next.js" src={Nextjs} href="https://nextjs.org/" />
 			<ToolBadge name="Svelte" src={Svelte} href="https://svelte.dev/" />
+			<ToolBadge name="PureScript" src={PureScript} href="https://www.purescript.org/" />
 		</Skillset>
 		<Skillset name="Backend Languages & Tools">
+			<ToolBadge name="PHP" src={PHP} href="https://www.php.net/" />
+			<ToolBadge name="Laravel" src={Laravel} href="https://laravel.com/" />
 			<ToolBadge name="Flask" src={Flask} href="https://palletsprojects.com/projects/flask/" />
 			<ToolBadge name="MySQL" src={MySQL} href="https://www.mysql.com/" />
 			<ToolBadge name="PostgreSQL" src={PostgreSQL} href="https://www.postgresql.org/" />
@@ -57,6 +69,8 @@
 		<Skillset name="Other Languages & Tools">
 			<ToolBadge name="Git" src={Git} href="https://git-scm.com/" />
 			<ToolBadge name="Linux" src={Linux} href="https://kernel.org/" />
+			<ToolBadge name="Jupyter" src={Jupyter} href="https://jupyter.org/" />
+			<ToolBadge name="Vim" src={Vim} href="https://www.vim.org/" />
 		</Skillset>
 	</div>
 </section>
