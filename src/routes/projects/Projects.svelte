@@ -35,12 +35,12 @@
 			github="https://github.com/ktrin-u/CS132-Arbitrary"
 		>
 			{#snippet description()}
-				For our CS 132 project, we explored spam SMS data using NLP and clustering techniques to
-				determine the existence of any patterns within them and their contents differed before and
-				after the <Link
+				We explored spam SMS data using NLP and clustering techniques. Through this, we sought to
+				determine any patterns that exist amongst the texts and if there was any difference in their
+				contents that may be correlated to the <Link
 					href="https://lawphil.net/statutes/repacts/ra2022/ra_11934_2022.html"
 					toBlank>SIM Card Registration Act</Link
-				> was imposed.
+				>.
 			{/snippet}
 		</ProjectCard>
 	</div>
