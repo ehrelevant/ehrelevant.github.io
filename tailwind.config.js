@@ -28,6 +28,9 @@ export default {
 			},
 			fontFamily: {
 				inter: ['Inter', 'sans-serif', 'system-ui']
+			},
+			backgroundImage: {
+				'home-image': 'url("$lib/images/background.png")'
 			}
 		}
 	},
