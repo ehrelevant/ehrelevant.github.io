@@ -61,22 +61,26 @@
 	});
 </script>
 
-<section class="w-full h-full grow flex justify-center items-center flex-col font-light">
-	<div
-		class="flex flex-col gap-4 bg-black w-full lg:w-fit lg:hover:shadow-solid-lg lg:hover:scale-105 lg:hover:shadow-primary transition-all p-8"
-	>
-		<h1 class="text-6xl font-semibold">
-			Hello, I'm <span class="text-primary">Ehren Castillo</span>!
-		</h1>
-		<div class="w-full flex flex-col sm:flex-row gap-4">
-			<div class="flex flex-row gap-4">
-				<IconLink href="https://github.com/ehrelevant" src={Github} />
-				<IconLink href="https://www.linkedin.com/in/ehren-castillo-a8045a269/" src={Linkedin} />
-				<IconLink href="https://x.com/ehrelevant" src={X} />
+<section
+	class="w-full h-full grow bg-home-image flex flex-col bg-cover bg-center backdrop-blur-lg font-light"
+>
+	<div class="w-full h-full grow flex flex-col justify-center items-center bg-dark-bg/80">
+		<div
+			class="flex flex-col gap-4 bg-black w-full lg:w-fit lg:hover:shadow-solid-lg lg:hover:scale-105 lg:hover:shadow-primary transition-all p-8"
+		>
+			<h1 class="text-6xl font-semibold">
+				Hello, I'm <span class="text-primary">Ehren Castillo</span>!
+			</h1>
+			<div class="w-full flex flex-col sm:flex-row gap-4">
+				<div class="flex flex-row gap-4">
+					<IconLink href="https://github.com/ehrelevant" src={Github} />
+					<IconLink href="https://www.linkedin.com/in/ehren-castillo-a8045a269/" src={Linkedin} />
+					<IconLink href="https://x.com/ehrelevant" src={X} />
+				</div>
+				<h2 class="text-2xl pl-4 border-l-4">
+					{subContentInfo.text}|
+				</h2>
 			</div>
-			<h2 class="text-2xl pl-4 border-l-4">
-				{subContentInfo.text}|
-			</h2>
 		</div>
 	</div>
 </section>
