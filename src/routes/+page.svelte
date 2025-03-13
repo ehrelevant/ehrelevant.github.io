@@ -20,7 +20,7 @@
 	});
 
 	onMount(() => {
-		setInterval(() => {
+		const interval = setInterval(() => {
 			if (!subContentInfo.isDeleting) {
 				const randomWritePause = getRandomInt(1, 3);
 
@@ -58,6 +58,8 @@
 				}
 			}
 		}, 100);
+
+		return () => clearInterval(interval);
 	});
 </script>
 
