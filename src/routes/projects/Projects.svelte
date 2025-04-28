@@ -14,7 +14,7 @@
 			MY <span class="group-hover:text-primary transition-colors">PROJECTS</span>
 		</h2>
 	</div>
-	<div class="flex flex-wrap justify-center gap-6">
+	<div class="flex flex-col justify-center gap-6">
 		<ProjectCard
 			name="Portfolio Website"
 			thumbnail={portfolioThumb}
